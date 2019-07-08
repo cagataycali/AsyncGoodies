@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon --exec babel-node index.js"
+    "start": "nodemon --exec babel-node index.js",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "keywords": [
     "Async",
@@ -27,6 +29,8 @@
   "dependencies": {
     "async": "^2.0.0-rc.6",
     "babel-polyfill": "^6.9.1",
-    "nodemon": "^1.9.2"
-  }
+    "nodemon": "^1.9.2",
+    "snyk": "^1.192.3"
+  },
+  "snyk": true
 }
