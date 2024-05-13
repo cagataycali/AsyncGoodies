@@ -27,6 +27,6 @@
   "dependencies": {
     "async": "^2.0.0-rc.6",
     "babel-polyfill": "^6.9.1",
-    "nodemon": "^1.9.2"
+    "nodemon": "^2.0.0"
   }
 }
